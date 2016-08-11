@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE-EDGE" />
+	<title>Ændring af forsikring</title>
+	<link href="~/css/documentstyles.css" rel="stylesheet" />
+	<script src="~/assets/thirdparty/jquery/jquery.min.js?v=636064146587976750" type="text/javascript"></script>
+	<script src="~/assets/thirdparty/jqueryui/jquery-ui.custom.js?v=636064146587976750"></script>
+	<script src="~/js/financys.common.js?v=636064146587976750"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('.pensionUdbyderAddress').html(''); $('.Partnername').html('Fynske Bank'); $('.Partnerfsslogopath').html('<img src="/spec/FSS/0844/layout/header_logo.png" />'); $('.advisorname').html(''); $('.stpEventDetailsAgreementId').html('3fd7e941-e4e1-487c-91de-5fd0cc40fb89'); $('.stpEventDetailsProductPriceStepNumber').html('1'); $('.stpEventDetailsInsuranceTakerName').html('Jan Jensen'); $('.stpEventDetailsInsuranceTakerCprDateOfBirth').html('260668'); $('.stpEventDetailsInsuranceTakerCprSequence').html('1219'); $('.stpEventDetailsInsuredCprDateOfBirth').html('260668'); $('.stpEventDetailsInsuredCprSequence').html('1219'); $('.stpEventDetailsSubcodeChange').html('Forsikringsdækningen fortsætter uændret, udløbsalder forlænget til 65 år');
+			$('[name="element10"].financysplaceholder').hide();
+			$('[name="element11"].financysplaceholder').hide();
+			$('[name="element12"].financysplaceholder').show().removeAttr('style');
+			$('[name="element13"].financysplaceholder').hide();
+			$('[name="element15"].financysplaceholder').hide();
+			$('[name="element16"].financysplaceholder').hide();
+			$('[name="element17"].financysplaceholder').hide();
+
+		});
+	</script>
+</head>
+<body id="printBody">
+	<div id="print">
+		<div class="document">
+			<div class="documentBody">
+				<div class="section">
+					<p class="sectionTitle">Personlige oplysninger</p>
+
+					<table class="tableFixedA4">
+						<tbody>
+							<tr class="tableRow">
+								<td class="cellNormal">Navn</td>
+								<td class="cellInput"><a class="bookmark stpEventDetailsInsuranceTakerName" id="bookmark327">Navn</a></td>
+								<td class="cellSmall">CPR-nr.</td>
+								<td class="cellCPR1 cellInput"><a class="bookmark stpEventDetailsInsuranceTakerCprDateOfBirth" id="bookmark328">123456</a></td>
+								<td class="cellTiny">-</td>
+								<td class="cellCPR2 cellInput"><a class="bookmark stpEventDetailsInsuranceTakerCprSequence" id="bookmark329">0000</a></td>
+							</tr>
+							<tr class="tableRow">
+								<td class="cellNormal">Policenummer</td>
+								<td class="cellInput">
+									<a class="bookmark stpEventDetailsPolicyNumber" id="bookmark319"></a>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<div>&nbsp;</div>
+
+				<div class="section">
+					<p class="sectionTitle">Jeg ønsker at ændre følgende forsikring</p>
+
+					<div class="financysplaceholder" name="element10" rules="1:field[320]¤1¤fixed[{fkun}];" text="VisKundeforhold">
+						<table class="tableFixedA4">
+							<tbody>
+								<tr class="tableRow">
+									<td>Kundeforhold</td>
+									<td>&nbsp;</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+
+					<div class="financysplaceholder" name="element11" rules="1:field[320]¤1¤fixed[{fpen}];" text="VisGruppeInvalideRente">
+						<table class="tableFixedA4">
+							<tbody>
+								<tr class="tableRow">
+									<td class="cellNormal">Pensionsgruppeliv</td>
+									<td>&nbsp;</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+
+					<div class="financysplaceholder" name="element12" rules="1:field[320]¤1¤fixed[{finv}];" text="VisGruppeInvalideRente">
+						<table class="tableFixedA4">
+							<tbody>
+								<tr class="tableRow">
+									<td class="cellNormal">Gruppeinvaliderente</td>
+									<td>&nbsp;</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+
+
+
+					<div class="financysplaceholder" name="element15" rules="1:field[320]¤1¤fixed[{fgbr}];" text="VisGruppeBoerneRente">
+						<table class="tableFixedA4">
+							<tbody>
+								<tr class="tableRow">
+									<td class="cellNormal" colspan="2">Gruppeb&oslash;rnerente</td>
+									<td class="textRight"><span class="cellTextRightPad">Barnets CPR-nr.</span></td>
+									<td class="cellCPR1 cellInput"><a class="bookmark stpEventDetailsInsuredCprDateOfBirth" id="bookmark331">123456</a></td>
+									<td class="cellTiny">-</td>
+									<td class="cellCPR2 cellInput"><a class="bookmark stpEventDetailsInsuredCprSequence" id="bookmark332">0000</a></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+
+				<div>&nbsp;</div>
+
+				<div class="section">
+					<p class="cellAsSectionTitle">Ændringen medfører</p>
+
+					<span class="bookmark stpEventDetailsSubcodeChange" id="bookmark351"></span>
+				</div>
+
+				<div>&nbsp;</div>
+
+				<div class="section">
+					<p class="sectionTitle">Pengeinstituttets oplysninger</p>
+
+					<table class="tableFixedA4">
+						<tbody>
+							<tr>
+								<td class="cellNormal">Pengeinstituttet</td>
+								<td class="cellInput"><a class="bookmark Partnername" id="bookmark278">Pengeinstituttet</a></td>
+							</tr>
+							<tr>
+								<td class="cellNormal">R&aring;dgiver</td>
+								<td class="cellInput"><a class="bookmark advisorname" id="bookmark283">R&aring;dgiver</a></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
